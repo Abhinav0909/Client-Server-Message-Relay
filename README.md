@@ -1,4 +1,4 @@
-# Webex message relay
+# Message relay
 
 A small TCP client/server message relay: clients register with an id, send addressed messages to each
 other, and acknowledge delivery. Offline messages are retained (bounded) and redelivered on reconnect.
