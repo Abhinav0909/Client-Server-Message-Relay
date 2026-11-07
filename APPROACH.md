@@ -200,7 +200,7 @@ Built with Claude (Claude Code) across several interactive session — not a sin
 ### Prompt sequence used to build this
 
 **0. State the problem**
-> Heres the exercise: build a small client/server message relay. Clients register with an id, send
+>  Build a small client/server message relay. Clients register with an id, send
 > messages to each other, ack delivery explicitly, and if someone is offline the messages have to be
 > retained and redelivered when they reconnect. I get to pick the protocol and language, its roughly a
 > two-hour scope, and theyre grading the reasoning more than the feature count. Dont jump to a design
