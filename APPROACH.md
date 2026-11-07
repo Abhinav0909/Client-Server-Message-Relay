@@ -1,8 +1,8 @@
 # Approach
 
-## Acceptance criteria
+## Scope
 
-| # | Requirement | Satisfied by |
+| # | Feature | Satisfied by |
 |---|---|---|
 | 1 | Client registers with a unique id; more than one at once | `MessagingServiceImpl.register`, backed by `ClientDirectory`'s concurrent map |
 | 2 | Either client can send an addressed, uniquely-identified message | `MessagingServiceImpl.send(fromId, toId, msgId, payload)` |
